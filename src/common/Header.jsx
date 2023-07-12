@@ -167,7 +167,18 @@ export default function Home() {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                
+                  <a
+                    href="/"
+                    className="-mx-3  border-2 border-stone-300 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    inicio
+                  </a>
+                  <a
+                    href="/aboutme"
+                    className="-mx-3 border-2 border-stone-300 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    acerca de mi
+                  </a>
                   <Disclosure as="div" className="-mx-3">
                     {({ open }) => (
                       <>
@@ -206,18 +217,7 @@ export default function Home() {
                       </>
                     )}
                   </Disclosure>
-                  <a
-                    href="/"
-                    className="-mx-3  border-2 border-stone-300 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    inicio
-                  </a>
-                  <a
-                    href="/aboutme"
-                    className="-mx-3 border-2 border-stone-300 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    acerca de mi
-                  </a>
+                
                 </div>
                 <div className="py-6">
                   <a
